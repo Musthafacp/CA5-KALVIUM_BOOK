@@ -77,7 +77,7 @@ function Form() {
           </div>
           <div className="">
             <input
-              type="text"
+              type="password"
               className="border w-96 h-12 pl-4 mt-5 transition duration-700 focus:outline-none focus:border-red-700"
               placeholder="Password"
               {...register("password", {
@@ -101,7 +101,7 @@ function Form() {
           </div>
           <div className="">
             <input
-              type="text"
+              type="password"
               className="border w-96 h-12 pl-4 mt-5 transition duration-700 focus:outline-none focus:border-red-700"
               placeholder="Repeat Your Password"
               {...register("RepeatPassword", {
